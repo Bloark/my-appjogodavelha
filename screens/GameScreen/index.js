@@ -13,8 +13,7 @@ export default props => {
   const [ remainingPlays, setRemainingPlays ] = useState(props.route.params.setRemainingPlays)
   const [ winner, setWinner ] = useState('')
 
-  // setPlayer=(props.route.params.setPlayer);    
-  // setRemainingPlays=(props.route.params.setRemainingPlays); 
+ 
 
   function play(line,column){
     console.log(line,column)
@@ -42,7 +41,7 @@ export default props => {
 
     //validando as diagonal 2
     if (board[0][2] !== '' && board[0][2] === board[1][1] && board[1][1] === board[2][0] ){
-      return finishGame(board[0][0])
+      return finishGame(board[0][2])
     }
 
     //Nenhum ganhador 
@@ -64,7 +63,7 @@ export default props => {
   }
 
   function confirmExit(){
-    Alert.alert('Sair', 'Deseja realmente sair?', [
+    Alert.alert('Sair', 'Deseja retornar ao menu incial?', [
       {
         text: 'Sim',
         onPress(){

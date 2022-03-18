@@ -6,5 +6,6 @@ export default {
     subtitle: '#119da4',
     playerX: '#fb3640',
     playerO: '#8fb339',
-    boxPlayer: '#CECCCC'
+    boxPlayer: '#CECCCC',
+    winner: '#FFFC31'
   }
