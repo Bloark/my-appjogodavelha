@@ -1,10 +1,38 @@
 import { StyleSheet } from 'react-native'
-import { Colors } from '../../values/index'
+import { Colors, Fonts, Metrics } from '../../values'
 
 export default StyleSheet.create({
-    container: {
+      container: {
         flexGrow: 1,
-        backgroundColor: Colors.background
-        
-      }
+        backgroundColor: Colors.background,
+        justifyContent: 'center',
+        alignItems: 'center'
+        },
+        title: {
+          fontSize: Fonts.title,
+          fontWeight: 'bold',
+          color: Colors.text        
+        },
+        windowMenu:{
+          flexDirection: 'row'
+  
+        },
+        boxPlayer: {
+          width:80,
+          height:80,
+          backgroundColor: Colors.boxPlayer,
+          alignItems: 'center',
+          justifyContent: 'center',
+          margin: Metrics.margin.small
+      },
+      playerX:{
+          fontSize: Fonts.player,
+          color: Colors.playerX 
+
+      },
+      playerO:{
+        fontSize: Fonts.player,
+        color: Colors.playerO 
+
+    }
 })
