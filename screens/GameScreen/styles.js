@@ -34,5 +34,14 @@ export default StyleSheet.create({
         fontSize: Fonts.player,
         color: Colors.playerO 
 
+    },
+    buttonHome:{
+      marginTop: Metrics.margin.base
+    },
+    buttonText:{
+      fontSize: Fonts.buttonText,
+      color: Colors.text,
+      fontWeight: 'bold'
+
     }
 })

@@ -28,7 +28,7 @@ export default props => {
                             backgroundColor: Colors.background,
                             borderBottomWidth: 0
                           },
-                          headerTintColor: Colors.white
+                          headerTintColor: Colors.text
                         }                      
                       } 
         />
