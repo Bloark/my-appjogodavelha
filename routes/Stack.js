@@ -8,7 +8,7 @@ import Home from '../screens/Home/index'
 import GameScreen from '../screens/GameScreen'
 import WinScreen from '../screens/WinScreen'
 
-import { Colors } from '../values'
+
 
 const Stack = createNativeStackNavigator();
 
@@ -22,23 +22,15 @@ export default props => {
 
         <Stack.Screen name="Home"
                       component={ Home }
-                      screenOptions={                        
-                        {
-                          headerStyle: {
-                            backgroundColor: Colors.background,
-                            borderBottomWidth: 0
-                          },
-                          headerTintColor: Colors.text
-                        }                      
-                      } 
+                      options={ { headerShown: false } }
         />
          <Stack.Screen name="GameScreen" 
                     component={ GameScreen }
-                    // options={ { headerShown: false } }
+                     options={ { headerShown: false } }
       />
        <Stack.Screen name="WinScreen" 
                     component={ WinScreen }
-                    // options={ { headerShown: false } }
+                     options={ { headerShown: false } }
       />
 
         </Stack.Navigator>
