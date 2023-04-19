@@ -8,24 +8,35 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 📋 Pré-requisitos
 
-"ejs": "^3.1.6",
-"express": "^4.17.3",
-"express-session": "^1.17.2",
-"pg": "^8.7.3"
+* @expo/vector-icons: ^13.0.0
+* @react-native-async-storage/async-storage: 1.17.11
+* @react-native-picker/picker: 2.4.8
+* @react-navigation/native: ^6.0.8
+* @react-navigation/native-stack: ^6.5.0
+* expo: ^48.0.0
+* expo-constants: ~14.2.1
+* expo-status-bar: ~1.4.4
+* react: 18.2.0
+* react-dom: 18.2.0
+* react-native: 0.71.6
+* react-native-paper: ^4.11.2
+* react-native-safe-area-context: 4.5.0
+* react-native-screens: ~3.20.0
+* react-native-web: ~0.18.11
+* react-native-webview: 11.26.0
 
 ### 🔧 Instalação
-
-```md
-npm install
-npm start
+* npm install
+* npm start
 
 
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [node](https://nodejs.org/en/docs) - O framework web usado
-* [NPM](https://docs.npmjs.com/) - Gerente de Dependência
+* [reactnative](https://reactnative.dev/docs/getting-started) -framework usado
+* [expo](https://docs.expo.dev/) - Gerente de Dependência
+* [NPM](https://docs.npmjs.com/) - framework para craiação de web app universal (Android, IOS)
 * [expressjs](https://expressjs.com/) - Gerenciado de rotas
 * [node-postgres](https://node-postgres.com/) - Gerenciado de banco de dados postgres
 
@@ -33,10 +44,13 @@ Mencione as ferramentas que você usou para criar seu projeto
 ## ✒️ Autores
 
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [Wildson Luiz](https://github.com/Bloark)
+* **Desenvolvedor** - *Trabalho Inicial* - [Wildson Luiz](https://github.com/Bloark)
 
 
 ## 📄 Licença
+
+```md
+
 
 
 ```
